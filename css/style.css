@@ -1,0 +1,1119 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+	width: 100%;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+
+/*header section*/
+.header{
+	height: 63px;
+}
+
+.left-header{
+	float: left;
+	width: 33%;
+	font-size: 37px;
+	font-family: fontawesome;
+	letter-spacing: 3px;
+	padding-left: 12px;
+	padding-top: 10px;
+
+}
+.right-header{
+	float: right;
+	width: 67%;
+	margin-top: 33px;
+	text-align: right;
+	padding-right: 25px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 15px;
+	letter-spacing: 4px;
+}
+.header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+#com{
+    color:#4caf50;
+    text-decoration:none;
+}
+
+#logo{
+    color:#555555;
+    text-decoration:none;
+}
+
+
+/*navigation bar section*/
+.nav{
+	background-color: #4caf50;
+	height: 57px;
+	width: 100%;
+}
+
+.nav a{
+    display: inline-block;
+    width: 176px;
+    height:100%;
+    padding: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: Segoe UI, Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 17px;
+    overflow: hidden;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.left-nav{
+	float: left;
+
+}
+
+
+.right-nav a{
+	float: right;
+	width: 53px;
+    height:100%;
+    padding: 16px;
+}
+
+.nav::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.nav .icon{
+	display: inline-block;
+	display: none;
+	float: left;
+}
+
+
+
+.container{
+	width: 100%;
+  /*height: 100%;*/
+}
+
+.sidebar{
+  position: absolute;
+	float: left;
+	width: 235px;
+  background-color: white;
+  text-align: left;
+  
+}
+
+.sidebar h4{
+    font-family: Segoe UI, Arial, sans-serif;
+    font-size: 20px;
+    width: 86%;
+    font-weight: 400;
+    height: 30px;
+    padding-left: 10px;
+    margin: 16px 0 10px 5px;
+    letter-spacing: 4px;
+    background-color: white;
+}
+
+.sidebar a {
+  background-color: white;
+  font-family: verdana,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  display: block;
+  padding: 0 16px 0 16px;
+  line-height: 22.5px;
+  color: black;
+  text-decoration: none;
+}
+.sidebar a:hover{
+	background-color: #eee;
+}
+
+.main{
+	background-color: white;
+	height: auto;
+	position: absolute;
+	/*width: 82%;*/
+  float: right;
+	left: 238px; 
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.section1{
+  min-height: 483px;
+  width: 100%;
+}
+
+
+.box1,.box2{
+    display: inline-block;
+}
+
+.box1{
+    background-color: white;
+    /*float: left;*/
+    color:#555555;
+    padding: 33px;
+    text-align: center;
+    width: 50%;
+    height:303px;
+    font-family: Verdana, sans-serif; 
+}
+
+.box1 h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 80px;
+    line-height: 120px;
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-weight: 400;
+    width:90%;
+    height: 120px;
+    text-align: center;
+}
+
+.box1 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    margin :0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    width: 100%;
+    min-height: 36px;
+    text-align: center;
+}
+
+
+.grey-button{
+    background-color: #616161;
+    color:white;
+    width: 134px;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+    padding: 8px 16px 8px 16px ;
+    margin:40px 0 5px 5px;
+    border:none;
+}
+.grey-button:hover{
+    background-color: #cccccc;
+    color: black;
+    cursor: default;
+}
+
+.box2{
+    background-color: white;
+    color:#555555;
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 33px 33px 33px 33px;
+    font-family: Verdana, sans-serif; 
+}
+
+.box2-sub{
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: start;
+    padding: 16px;
+    height: 416px;
+    background-color: #f1f1f1;
+}
+
+.box2-sub h3{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: start;
+  color: black;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width:90%;
+  font-weight: 400;
+}
+
+.box2-sub .textarea{
+    font-family: Consolas, "courier new";
+    font-size: 16px;
+    height: 256px;
+    text-align: start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 12px 8px 12px;
+    width:99%;
+    background-color: white;
+    border-left: 4px solid #4CAF50;
+}
+
+.box2 .gb input{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 157px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.section1::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.section2{
+  min-height: 523px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.section2::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.section3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.boxes4::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.boxes5::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.main::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.box3,.box4{
+    display: inline-block;
+    /*margin-top: 30px;*/
+}
+
+.box4{
+    
+    /*float: left;*/
+    color:#555555;
+    padding: 33px;
+    text-align: center;
+    width: 50%;
+    height:303px;
+    font-family: Verdana, sans-serif; 
+}
+
+.box4 h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 80px;
+    line-height: 120px;
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-weight: 400;
+    width:90%;
+    height: 120px;
+    text-align: center;
+}
+
+.box4 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    margin :0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    width: 100%;
+    min-height: 36px;
+    text-align: center;
+    color: black;
+}
+
+
+.grey-button{
+    background-color: #616161;
+    color:white;
+    width: 134px;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+    padding: 8px 16px 8px 16px ;
+    margin:40px 0 5px 5px;
+    border:none;
+}
+.grey-button:hover{
+    background-color: #cccccc;
+    color: black;
+    cursor: default;
+}
+
+.box3{
+    background-color: #f1f1f1.
+    color:#555555;
+    float: left;
+    text-align: start;
+    width: 50%;
+    height: 100%;
+    padding: 33px 33px 33px 33px;
+    font-family: Verdana, sans-serif; 
+}
+
+
+
+.box3 h3{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: start;
+  color: black;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width:90%;
+  font-weight: 400;
+}
+
+.box3 .textarea{
+    font-family: Consolas, "courier new";
+    font-size: 16px;
+    height: 328px;
+    text-align: start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 12px 8px 12px;
+    width:99%;
+    background-color: white;
+    border-left: 4px solid #4CAF50;
+}
+
+.box3 .gb input{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 157px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.section3{
+  height: 483px;
+  width: 100%;
+}
+
+
+.box5,.box6{
+    display: inline-block;
+}
+
+.box5{
+    background-color: white;
+    float: left;
+    color:#555555;
+    padding: 33px;
+    text-align: center;
+    width: 50%;
+    height:303px;
+    font-family: Verdana, sans-serif; 
+}
+
+.box5 h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 80px;
+    line-height: 120px;
+    margin-top: 2px;
+    margin-bottom: -20px;
+    font-weight: 400;
+    width:90%;
+    height: 120px;
+    text-align: center;
+}
+
+.box5 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    margin :0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+   width: 100%;
+    min-height: 36px;
+    text-align: center;
+}
+
+
+.grey-button{
+    background-color: #616161;
+    color:white;
+    width: 134px;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+    padding: 8px 16px 8px 16px ;
+    margin:5px 0 5px 5px;
+    border:none;
+}
+.grey-button:hover{
+    background-color: #cccccc;
+    color: black;
+    cursor: default;
+}
+
+.box6{
+    background-color: white;
+    color:#555555;
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 33px 33px 33px 33px;
+    font-family: Verdana, sans-serif; 
+}
+
+.box6-sub{
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: start;
+    padding: 16px;
+    height: 416px;
+    background-color: #f1f1f1;
+}
+
+.box6-sub h3{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: start;
+  color: black;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width:90%;
+  font-weight: 400;
+}
+
+.box6-sub .textarea{
+    font-family: Consolas, "courier new";
+    font-size: 16px;
+    height: 256px;
+    text-align: start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 12px 8px 12px;
+    width:99%;
+    background-color: white;
+    border-left: 4px solid #4CAF50;
+}
+
+.box6 .gb input{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 157px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.boxes4{
+    background-color: #f1f1f1;
+    min-height: 513px;
+    width: 100%;
+    padding: 16px;
+    float: left;
+    display: inline-block;
+}
+
+.m1{
+    display: inline-block;
+    float: left;
+    padding: 22px 33px 22px 33px;
+    width: 50%;
+    height: 240px;
+    text-align: center;
+}
+
+.b1{
+    padding: 8px 16px 24px 16px;
+    width: 95%;
+    height: 196px;
+    text-align: center;
+    background-color: white;
+}
+
+.b1 h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.b1 h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.boxes5{
+    width: 100%;
+    min-height: 291px;
+}
+
+.c1{
+  padding: 33px;
+  width: 32%;
+  height: 291px;
+  float: left;
+  text-align: center;
+  background-color: white;
+}
+.c1 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    /*width: 95%;*/
+    line-height: 54px;
+    font-weight: 400;
+}
+.c1 h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.c2{
+  float: left;
+  width: 32%;
+  padding: 33px;
+  line-height: 22.5px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+
+}
+.c2 img{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 128px;
+}
+.c2 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: 100%;
+    line-height: 54px;
+    font-weight: 400;
+}
+
+.check{
+  height: .000000001px;
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+}
+
+.c3{
+  padding: 33px;
+  width: 32%;
+  height: 261px;
+  float: left;
+  background-color: white;
+  text-align: center;
+}
+.c3 h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 54px;
+    font-weight: 400;
+}
+.c3 h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.bt{
+    background-color: #616161;
+    color:white;
+    width: 155px;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, sans-serif;
+    padding: 8px 16px 8px 16px ;
+    margin:5px 0 5px 5px;
+    border:none;
+}
+
+
+.boxes6{
+    width: 100%;
+    padding:48px 24px 68px 24px;
+    height: 398px;
+    background-color: #616161;
+    text-align: center;
+    display: block;
+}
+
+.boxes6 h2{
+    height: 54px;
+    width: 100%;
+    font-size: 36px;
+    margin:10px 0 10px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.boxes6 h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    height: 30px;
+    width: 100%;
+    margin:10px 0 10px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
+}
+
+.buton1,.buton2{
+    height: 84px;
+    width: 95%;
+    text-align: center;
+    padding: 0 8px 0 8px;
+    margin:0 46px 0 46px;
+}
+
+.buton1 .gb{
+    width: 32%;
+    height: 84px;
+    display: inline-block;
+    float: left;
+    height: 54px;
+}
+
+.buton2 .gb{
+    width: 24%;
+    height: 84px;
+    display: inline-block;
+    float: left;
+    height: 54px;
+}
+
+.buton1 input{
+    width: 95%;
+    height: 54px;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+.buton2 input{
+    width: 93%;
+    height: 54px;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    /*width: 157px;*/
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+input{
+    border: none;
+}
+.web{
+	width: 100%;
+	min-height: 665px;
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 32px 24px 32px 24px;
+}
+
+.web h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+  font-weight: 400;
+	width: 90%;
+}
+
+.web h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 90%;
+	font-size: 20px;
+  font-weight: 400;
+	line-height: 30px;
+}
+
+.web img{
+	width: 87%;
+	margin-top: 16px;
+	margin-bottom: 20px;
+	 
+}
+
+.web p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 22.5px;
+	text-align: center;
+	width: 90%;
+}
+
+.web p input{
+	padding: 12px 24px 12px 24px;
+	font-size: 15px;
+	font-family:Verdana, sans-serif;
+	width: 207px;
+	height: 46px;
+	background-color: #616161;
+	color: white;
+
+}
+
+.howto{
+	min-height: 232px;
+	width: 100%;
+	text-align: center;
+}
+
+.howto h2{
+  font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+	width: 90%;
+}
+
+.howto h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 90%;
+	font-size: 20px;
+	line-height: 30px;
+}
+.howto p{
+  font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 46px;
+	text-align: center;
+	width: 90%;
+}
+
+.howto p input{
+	padding: 12px 24px 12px 24px;
+	font-size: 15px;
+	font-family:Verdana, sans-serif;
+	width: 207px;
+	height: 46px;
+	background-color: #616161;
+	color: white;
+
+}
+
+.last{
+	float: left;
+	width: 100%;
+	height: 537px;
+	background-color: black;
+	text-align: center;
+}
+
+.last img{
+	width: 800px;
+	height: 100%;
+}
+
+.top{
+	width: 100%;
+	height: 162px;
+	padding: 15px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: black;
+	position: absolute;
+	margin-top: -540px;
+	color:white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.top h2{
+	line-height: 54px;
+	font-size: 36px;
+	font-weight: 400;
+	padding-top: 30px;
+	opacity: 1;
+}
+
+.top h3{
+	line-height: 36px;
+	font-size: 24px;
+	font-weight: 400;
+	opacity: 1;
+}
+
+.last-button{
+  margin-top: -290px;
+  height: 49px;
+  width: 100%;
+}
+
+.last input{
+	font-family: Verdana, sans-serif;
+    font-size: 16px;
+    width: 172px;
+    height: 100%;
+    padding:8px;
+    background-color: #4CAF50;
+    color:white;
+    text-align: center;
+}
+
+
+.footer{
+	width: 100%;
+	height:335px;
+	background-color: #616161; 
+	margin-top: 537px;
+	padding: 32px 16px 32px 16px;
+}
+
+.top-footer{
+	height: 95px;
+	padding: 32px 16px 32px 16px;
+	width: 97%;	
+}
+
+.left-footer,.right-footer{
+	display: inline-block;
+}
+.right-footer{
+	float: right;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 22.5px;
+	text-align: center;
+	letter-spacing: 4px;
+	color: white;
+}
+
+.right-footer a{
+	color:white;
+}
+
+.left-footer input{
+	height: 40px;
+	font-family: Verdana, sans-serif;
+	margin-top: -9px;
+    font-size: 16px;
+    padding:8px 16px 8px 16px;
+    background-color: #f1f1f1;
+    color:#000000;
+    text-align: center;
+}
+
+#o,#p{
+	margin-left: 8px;
+}
+
+
+.bottom-footer{
+	color: white;
+	font-family:Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 22.5px;
+	text-align: center;
+	letter-spacing: normal;
+	height: 110px;
+	padding: 15px 0 15px 0;
+	width: 97%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1030px){
+	
+	.last img{
+	width: 100%;
+	text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 992px){
+	 .left-header,.right-header{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  .left-header{
+    margin-top: 10px;
+  }
+  .nav{
+    margin-top: 20px;
+  }
+
+  .box1,.box2,.box3,.box4,.box5,.box6,.m1,.c1,.c2,.c3,.boxes6{
+      width: 100%;
+  }
+
+  .section1{
+    width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 770px){
+	
+	.left-nav{
+			display: none;
+	}
+  .right-nav .icon {
+    font-size:15px;
+    display: inline-block;
+  }
+  .sidebar{
+  	display: none;
+  	width: 0;
+  }
+  .main{
+  	margin-left: 0px;
+    float: none;
+  	width: 100%;
+    left:0;
+  	text-align: center;
+  }
+  .left-footer,.right-footer,#last-icon{
+    width: 100%;
+  }
+
+  .last{
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+	
+
+  .box2,.box3,.box6,.buton2{
+  	display: none;
+    text-align: center;
+  }
+
+
+  .buton1 .gb {
+    width: 100%;
+  }
+
+  #change{
+    width: 100%;
+  }
+
+  .section1,.section2,.section3{
+  	height: auto;
+  }
+  .right-header{
+		display: none;
+	}
+  
+}
+
+
+
+
